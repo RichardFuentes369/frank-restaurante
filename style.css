@@ -1,0 +1,12 @@
+.sticky-cell {
+  position: sticky;
+  left: 0;
+  background-color: white; /* Cambia el color de fondo según sea necesario */
+  z-index: 1; /* Asegura que las celdas fijas estén por encima del resto de la tabla */
+}
+
+.scroll-datatable {
+  overflow-y: scroll;
+    overflow-x: scroll;
+    height: 15rem !important;
+}
