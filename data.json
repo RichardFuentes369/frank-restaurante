@@ -3,77 +3,20 @@
     "name": "Frank Hufty",
     "pay": 30.0,
     "orderNo": 1,
+    "time": "00:30:00",
     "dateOrder": "2023-06-01 13:55:20",
+    "status": "Pendiente",
     "order": [
       {
         "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
         ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+        "sinadditional": [
         ],
         "status": false
       },
@@ -81,240 +24,292 @@
         "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
           "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
           "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
           "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
           "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      },
+      {
+        "name": "Hot Dog1",
+        "additional": [
+          "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       }
-    ],
-    "status": "preorder"
+    ]
   },
   {
-    "name": "Elon Musk",
+    "name": "Barak Obama",
     "pay": 30.0,
-    "orderNo": 2,
+    "orderNo": 1,
+    "time": "00:30:00",
     "dateOrder": "2023-06-01 13:55:20",
+    "status": "Pendiente",
     "order": [
       {
-        "name": "Hot Dog2",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
+        ],
+        "status": false
+      }
+    ]
+  },
+  {
+    "name": "Fredderick Nicher",
+    "pay": 30.0,
+    "orderNo": 1,
+    "time": "00:30:00",
+    "dateOrder": "2023-06-01 13:55:20",
+    "status": "Pendiente",
+    "order": [
+      {
+        "name": "Hot Dog1",
+        "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       },
       {
-        "name": "Hamburguer",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
+        ],
+        "sinadditional": [
         ],
         "status": false
       }
-    ],
-    "status": "preorder"
+    ]
   },
   {
     "name": "Javier Baron",
     "pay": 30.0,
-    "orderNo": 3,
+    "orderNo": 1,
+    "time": "00:30:00",
     "dateOrder": "2023-06-01 13:55:20",
+    "status": "Pendiente",
     "order": [
       {
-        "name": "Hot Dog 3",
+        "name": "Hot Dog1",
         "additional": [
           "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+          "aditional2",
+          "aditional3",
+          "aditional4",
+          "aditional5"
         ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
+        "sinadditional": [
         ],
         "status": false
       }
-    ],
-    "status": "preorder"
-  },
-  {
-    "name": "Mark Zuckerberg",
-    "pay": 30.0,
-    "orderNo": 4,
-    "dateOrder": "2023-06-01 13:55:20",
-    "order": [
-      {
-        "name": "Hot Dog 4",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      }
-    ],
-    "status": "preorder"
-  },
-  {
-    "name": "Mark Cuban",
-    "pay": 30.0,
-    "orderNo": 5,
-    "dateOrder": "2023-06-01 13:55:20",
-    "order": [
-      {
-        "name": "Hot Dog 5",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      }
-    ],
-    "status": "preorder"
-  },
-  {
-    "name": "Jeff Bezzos",
-    "pay": 30.0,
-    "orderNo": 6,
-    "dateOrder": "2023-06-01 13:55:20",
-    "order": [
-      {
-        "name": "Hot Dog 6",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      },
-      {
-        "name": "Hamburguer",
-        "additional": [
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1",
-          "aditional1"
-        ],
-        "status": false
-      }
-    ],
-    "status": "preorder"
+    ]
   }
 ]

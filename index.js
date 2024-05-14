@@ -37,25 +37,6 @@ _content.append(`
       </form>
     </div>
   </nav>
-
-  <div class="d-flex flex-row-reverse bd-highlight">
-    <div class="p-2 bd-highlight">
-      <label for="">Show</label>
-      <select name="" id="opcionMostrar" onchange="cambioOrden()">
-        <!-- 12 -->
-        <option value="12">1</option> 
-        <!-- 6 -->
-        <option value="6">2</option> 
-        <!-- 4 -->
-        <option value="4" selected>3</option>
-        <!-- 3 -->
-        <option value="3">4</option>
-        <!-- 2 -->
-        <option value="2">6</option>
-      </select>
-    </div>
-  </div>
-
 `)
 
 const url = './data.json'
@@ -84,69 +65,64 @@ const cambioOrden = () => {
   llenarPedido()
 }
 
-
 const llenarPedido = () => {
-  let dividir = $('#opcionMostrar').val()
-  let inicio = '<div class="col-xl-12 col-sm-12 row mt-4 mb-4" id="boxContend">'
-  let contenido = ''
+  let inicio = '<div id="boxContend">'
+  let contenido = '<div class="d-flex flex-wrap">'
   let pedido = ''
   let tablaPedido = ''
   let fin = '</div>'
+  let columnas = 0
 
   for (const iterator of this.response) {
-    console.log(iterator)
-
+    columnas = iterator.order.length
+    pedido +=  `<div style="column-count: ${columnas};">`
+    pedido +=  `<div class="text-break">`
     for (const iterator2 of iterator.order) {
-      console.log(iterator2)
+      console.log(iterator2.additional)
       pedido +=  `
-        <tr>
-          <td class="sticky-cell">
-            <input type="checkbox" aria-label="Checkbox for following text input">
-            ${iterator2.name}
-          </td>
-          <td>${iterator2.additional}</td>
-          <td>${iterator2.status}</td>
-        </tr>
+        <div class="alert-dark text-dark">
+          Producto: ${iterator2.name} <br>
+          Estado: ${iterator2.status} <br> <br>
+          Aderesos: ${iterator2.additional} <br> <br>
+        </div>
+        <br>
       `
     }
+    pedido +=  `</div></div>`
 
     tablaPedido = `
-      <div class="row scroll-datatable table-responsive">
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col" class="sticky-cell">Name</th>
-              <th scope="col">Last</th>
-              <th scope="col">Handle</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${pedido}
-          </tbody>
-        </table>
-      </div>
+      ${pedido}
     `
 
     contenido += `
-      <div class="col-xl-${dividir} col-sm-${dividir} p-0">
-        <div class="card m-2">
-          <div class="card-body">
-            <h5 class="card-title">
-              (${iterator.orderNo}) <br>
-              ${iterator.name} <br>
-              ${iterator.dateOrder} <br>
-              ${iterator.status} <br> 
-            </h5>
-            <div class="col-sm-12 row">
-              ${tablaPedido}
-            </div>
-            <br>
-            <a href="#" class="btn btn-primary">Inciar</a>
-            <a href="#" class="btn btn-primary">Entregar</a>
-            <a href="#" class="btn btn-primary">Devolucion</a>
+    <div class="card m-2">
+      <div class="card-header">
+        <div class="d-flex bd-highlight">
+          <div class="p-2 w-100 bd-highlight">
+            ${iterator.name} <br>
+            ${iterator.dateOrder} <br>
+            ${iterator.status}
+          </div>
+          <div class="p-2 flex-shrink-1 bd-highlight">
+            ${iterator.time}
           </div>
         </div>
       </div>
+      <div class="card-body">
+        <h5 class="card-title">
+          <div class="row ml-auto">
+          Order no(${iterator.orderNo})
+          Cantidad (${iterator.order.length})
+          </div>
+        </h5>
+        <div class="col-sm-12 row">
+          ${tablaPedido}
+        </div>
+        <a href="#" class="btn btn-primary">Inciar</a>
+        <a href="#" class="btn btn-primary">Entregar</a>
+        <a href="#" class="btn btn-primary">Devolucion</a>
+      </div>
+    </div>
     `
     pedido = ''
   }
@@ -159,7 +135,7 @@ const llenarPedido = () => {
 /*Footer*/
 _content.append(`
 <div class="fixed-bottom">
-  <div class="d-flex justify-content-center">
+  <div class="d-flex align-content-around flex-wrap">
     Frank
   </div> 
 </div>
